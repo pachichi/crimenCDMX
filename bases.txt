@@ -1,0 +1,7 @@
+https://datos.cdmx.gob.mx/explore/dataset/coloniascdmx/table/
+https://datos.cdmx.gob.mx/explore/dataset/alcaldias/table/
+https://datos.cdmx.gob.mx/explore/dataset/uo-de-suelo/table/
+https://datos.cdmx.gob.mx/explore/dataset/carpetas-de-investigacion-pgj-de-la-ciudad-de-mexico/table/?disjunctive.delito
+https://datos.cdmx.gob.mx/explore/dataset/denuncias-victimas-pgj/table/
+https://datos.cdmx.gob.mx/explore/dataset/cuadrantes/table/
+https://datos.cdmx.gob.mx/explore/dataset/comisiones-vecinales/information/
