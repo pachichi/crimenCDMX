@@ -5,3 +5,9 @@ https://datos.cdmx.gob.mx/explore/dataset/carpetas-de-investigacion-pgj-de-la-ci
 https://datos.cdmx.gob.mx/explore/dataset/denuncias-victimas-pgj/table/
 https://datos.cdmx.gob.mx/explore/dataset/cuadrantes/table/
 https://datos.cdmx.gob.mx/explore/dataset/comisiones-vecinales/information/
+https://datasf.org/opendata/
+
+Para vialidades 
+https://www.inegi.org.mx/app/mapa/espacioydatos/
+https://www.inegi.org.mx/app/mapas/
+http://gaia.inegi.org.mx/mdm6/

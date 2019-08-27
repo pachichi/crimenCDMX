@@ -3,10 +3,13 @@
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
 \usepackage[right=1.5cm,top=1cm,bottom=2cm,left=1.5cm]{geometry}
+\usepackage{url}
+% \usepackage[backend=bibtex,style=numeric,natbib=true]{biblatex}
+% \bibliography{biblio}
 % \usepackage{mcite}
 
-\title{Revisión sobre trabajos de crimen}
-\author{pachichi}
+\title{Revisión bibliográfica sobre modelos matemáticos, crimen, mapas y datos}
+\author{Sergio Sánchez}
 \date{2019/08/23}
 
 \begin{document}
@@ -14,25 +17,71 @@
 
 \section{Reviews}
 
-Uno de los artículos de revisión sobre modelos matemáticos y crimen es \cite{gordon_random_2010}. D'orsogna et. al.  \cite{dorsogna_statistical_2015} hacen una revisión de modelos sobre crimen usando metodos de la física estadística.
+Uno de los artículos de revisión sobre modelos matemáticos y crimen es \cite{gordon_random_2010}. D'orsogna et. al.\cite{dorsogna_statistical_2015} hacen una revisión de modelos sobre crimen usando metodos de la física estadística.
 
 \section{Primarios}
 
 
 
-Otro idea forma en que se puede analizar es de una forma similar al análisis cerebral por medio de ECG (Tesis de Octavio Lecona UACM). Es decir, de las colonias, cuadrantes de seguridad o delegaciones obtener las series de tiempo para algún tipo de delito, encontrar las correlaciones y formar una red. 
+Sobre crimen en la CDMX esta el trabajo de Carlos Piña\cite{pina-garcia_exploring_2019} que por medio de tuits trata de predecir tendencias del crimen. Analisis de Crimen en el df, libro \cite{mendoza_tamano_2012}; artículos \cite{mata_mobile_2016}, \cite{vilalta_what_2016}, \cite{sanchez_salinas_robo_2016}, \cite{fuentes_flores_distribucion_2017}, \cite{cisneros_geografimiedo_2008}, Ciudad Juarez accidentes de tránsito\cite{hernandez_hernandez_alisis_2012}
 
 
-Sobre crimen en la CDMX esta el trabajo de Carlos Piña\cite{pina-garcia_exploring_2019} que por medio de tuits trata de predecir tendencias del crimen.
-\section{Secundarios}
+un modelo sobre una malla de robo a casas que pueden llevar a un sistema de reacción-difusión \cite{short_statistical_2008}.
+
+
+Utiliza las series de tiempo de delitos para hacer un análisis fractal, también obtiene el exponente de Hurts\cite{melgarejo_multifractal_2017}.  
+
+Otro idea forma en que se puede analizar es de una forma similar al análisis cerebral por medio de EEG (Octavio Lecona, Ruben Fossion). Es decir, de las colonias, cuadrantes de seguridad o delegaciones obtener las series de tiempo para algún tipo de delito, encontrar las correlaciones y formar una red. 
+
+
+% \section{Secundarios}
+
+Sobre este proceso self-exciting point process también se ha utilizado para predecir la popularidad de tuits\cite{zhao2015seismic}. En \cite{reinhart2018review} se hace una revisión de este método y las aplicaciones en las que se ha usado. 
+
+Este también esta interesante porque utiliza estadística circular para analizar los delitos por hora.\cite{brunsdon2006using}.
+
+
+En este hablan también de los calculos de la estadística espacial (spatial description, hot spot analysis, interpolation, space-time analysis, and journey-to.crime modeling), en particular de un programa llamado \textit{CrimeStat}\cite{levine2006crime}
+
+Estos los que utilizan enfoque de redes
+
+Estos son los artículos donde utilizan ABM; aquí también usan algoritmos genéticos\cite{furtado_bio-inspired_2009}, \cite{malleson_agent-based_2009}, \cite{malleson_crime_2010} , desplazamiento de hotspot por medio de ABM\cite{wang_analyzing_2014}, \cite{devia_generating_2013}. \cite{hegemann_geographical_2011}
+
+Muy general y muy vago \cite{butorac_geography_2017}
+
+Estos los que utilizan Redes Neuronales \cite{francisco_alisis_2015}, \cite{olligschlaeger_artificial_1998}
+En el de Guayaquil se comenta desde como formar los hostpots con dos tipos de algoritmos, DBSCAN y k-Means. Utiliza un red neuronal artificial para predecir hotspots.\cite{garcia-plua_deteccion_2017} \cite{zhuang_crime_2017}
+
+Modelo continuo de campo medio en un dimensión para robos a casa-habitación donde los ladrones se mueven siguiendo vuelos de Lécy truncados.\cite{pan_crime_2018}. Ecuaciones de reacción difusión \cite{short_dissipation_2010}.
+
+
+Libros sobre crimen y mapas. \cite{rossmo_geographic_2014} \cite{santos_crime_2016} \cite{liu_artificial_2008} \cite{weisburd_crime_1998} \cite{chainey_crime_2008}. 
+
+
+Criminilidad y modelo de ising \cite{ayouche_second_2015}, 
 
 
 
+Hace enfásis en el mapeo de los delitos, también examina diferentes maneras en localizar hotspots, me parecen medidas bastante sencillas \cite{ratcliffe_crime_2010}. 
 
 
+Cuando la cantidad de datos es grande, se pueden utilizar técnicas de \textit{Big Data}. En el trabajo de Hassani\cite{hassani_review_2016} examina varias técnicas de \textit{Big Data}, donde  la localización y análisis de hotspots la clasifica dentro de la técnica de \textit{Cluster Analysis}. En el último Reporte de Seguridad de la Ciudad de México (Agosto 2019)\footnote{\url{https://datosseguridad.cdmx.gob.mx/tablero/diario/clusters}}, se utilizó el algoritmo \textit{Density-based spatial clustering of applications with noise (DBSCAN)}, para formar \textit{clusters} sobre el mapa de la CDMX con los datos del crimen.\cite{noauthor_datos_nodate}.  \cite{noauthor_big_nodate} \cite{chen_crime_2004},
 
-\bibliographystyle{apalike}
+
+Este es de machine-learning \cite{alves_crime_2018}
+Linear regression, logistic regression and gradient boosting \cite{ingilevich_crime_2018}. Series de tiempo y machine learning \cite{wang_learning_2013}
+
+
+Enfoque estadistico\cite{noauthor_bayesian_nodate}, Bayesian methods and stochastic differential equation \cite{mohler_geographic_2012}. Probabilistico, point-pattern-based transition density model. hot spot prediction\cite{liu_criminal_2003} 
+
+Enfoque de sistemas dinámicos como una epidemia \cite{gonzalez-parra_mathematical_2018} \cite{srivastav_modeling_2019} \cite{mcmillon_modeling_2014}
+
+me quede en Non-local crime density
+
+
+\bibliographystyle{unsrt}
 \bibliography{biblio.bib}
+% \printbibliography
 
 
 \end{document}

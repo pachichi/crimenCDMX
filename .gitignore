@@ -1,0 +1,9 @@
+**/*.aux
+**/*.toc
+**/*.nav
+**/*.snm
+**/*.out
+**/*.log
+**/*.bbl
+**/*.blg
+auto/
