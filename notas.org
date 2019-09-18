@@ -1,0 +1,31 @@
+* Python vs R
+  https://www.dataquest.io/blog/python-vs-r/
+  https://datascience-enthusiast.com/R/pandas_datatable.html
+  https://elitedatascience.com/r-vs-python-for-data-science
+
+* R
+  https://www.tutorialspoint.com/r/r_csv_files.htm
+  https://learnxinyminutes.com/docs/es-es/r-es/
+  
+* Julia
+  https://devhub.io/repos/JuliaLang-IJulia.jl
+  https://en.wikibooks.org/wiki/Introducing_Julia
+  https://learnxinyminutes.com/docs/julia/
+
+* Systems dynamics
+  https://en.wikipedia.org/wiki/System_dynamics
+  http://www.dinamica-de-sistemas.com/libros/diagrama_forrester.htm
+
+* APIs
+  https://medium.com/@perrysetgo/what-exactly-is-an-api-69f36968a41f
+  https://www.dataquest.io/blog/python-api-tutorial/
+  https://www.pythonforbeginners.com/api/python-api-and-json
+  
+* Telegram bot
+  https://core.telegram.org/bots
+  https://core.telegram.org/bots/api#making-requests
+
+* Visualization libraries python
+  https://opensourceforu.com/2017/03/python-libraries-data-visualisation/
+  https://www.anaconda.com/python-data-visualization-2018-why-so-many-libraries/
+  https://dsaber.com/2016/10/02/a-dramatic-tour-through-pythons-data-visualization-landscape-including-ggplot-and-altair/

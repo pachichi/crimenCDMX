@@ -7,3 +7,6 @@
 **/*.bbl
 **/*.blg
 auto/
+data/
+.ipynb_checkpoints/
+docs/revision.pdf
