@@ -2,11 +2,11 @@
 
 BASE[1]=cuadrantes
 TIPO[2]=geojson
-wget -O ${BASE}.${TIPO} "https://datos.cdmx.gob.mx/explore/dataset/cuadrantes/download/?format=${TIPO}&timezone=America/Mexico_City"
+wget -O ${BASE}.${TIPO} "https://datos.cdmx.gob.mx/explore/dataset/${BASE}/download/?format=${TIPO}&timezone=America/Mexico_City"
 
 BASE[2]=comisiones-vecinales
 TIPO[1]=json
-wget -O ${BASE}.${TIPO} "https://datos.cdmx.gob.mx/explore/dataset/cuadrantes/download/?format=${TIPO}&timezone=America/Mexico_City"
+wget -O ${BASE}.${TIPO} "https://datos.cdmx.gob.mx/explore/dataset/${BASE}/download/?format=${TIPO}&timezone=America/Mexico_City"
 
 
 BASE=carpetas-de-investigacion-pgj-de-la-ciudad-de-mexico

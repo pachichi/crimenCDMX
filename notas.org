@@ -3,6 +3,19 @@
   https://datascience-enthusiast.com/R/pandas_datatable.html
   https://elitedatascience.com/r-vs-python-for-data-science
 
+* Python
+** JSON
+   https://realpython.com/python-json/
+   https://geekytheory.com/como-utilizar-json-en-python/
+   https://www.dataquest.io/blog/python-json-tutorial/
+   https://datatofish.com/load-json-pandas-dataframe/
+   https://www.kaggle.com/jboysen/quick-tutorial-flatten-nested-json-in-pandas
+   https://datatofish.com/load-json-pandas-dataframe/
+
+** String Format
+   https://www.dummies.com/programming/python/how-to-format-strings-in-python/
+   https://realpython.com/python-f-strings/#old-school-string-formatting-in-python
+
 * R
   https://www.tutorialspoint.com/r/r_csv_files.htm
   https://learnxinyminutes.com/docs/es-es/r-es/
@@ -29,3 +42,15 @@
   https://opensourceforu.com/2017/03/python-libraries-data-visualisation/
   https://www.anaconda.com/python-data-visualization-2018-why-so-many-libraries/
   https://dsaber.com/2016/10/02/a-dramatic-tour-through-pythons-data-visualization-landscape-including-ggplot-and-altair/
+
+* Otros
+  https://docs.gitlab.com/ee/ssh/
+  https://www.ionos.mx/digitalguide/paginas-web/desarrollo-web/jupyter-notebook/
+  https://towardsdatascience.com/how-to-setup-your-jupyterlab-project-environment-74909dade29b
+
+  https://www.ias.ac.in/public/Volumes/reso/016/08/0722-0741.pdf
+  https://physics-complex-systems.fr/wp-content/uploads/2019/03/Notes_chap1-13.pdf
+  https://web.eecs.umich.edu/~rajnrao/Acta05rmt.pdf
+
+* JSON
+  https://jsonplaceholder.typicode.com/
