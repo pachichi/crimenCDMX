@@ -16,6 +16,10 @@
    https://www.dummies.com/programming/python/how-to-format-strings-in-python/
    https://realpython.com/python-f-strings/#old-school-string-formatting-in-python
 
+** Pandas 
+   https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#question9
+   https://www.learndatasci.com/tutorials/python-pandas-tutorial-complete-introduction-for-beginners/
+
 * R
   https://www.tutorialspoint.com/r/r_csv_files.htm
   https://learnxinyminutes.com/docs/es-es/r-es/
@@ -24,6 +28,9 @@
   https://devhub.io/repos/JuliaLang-IJulia.jl
   https://en.wikibooks.org/wiki/Introducing_Julia
   https://learnxinyminutes.com/docs/julia/
+  
+** JSON
+   https://github.com/JuliaIO/JSON.jl
 
 * Systems dynamics
   https://en.wikipedia.org/wiki/System_dynamics
@@ -43,6 +50,11 @@
   https://www.anaconda.com/python-data-visualization-2018-why-so-many-libraries/
   https://dsaber.com/2016/10/02/a-dramatic-tour-through-pythons-data-visualization-landscape-including-ggplot-and-altair/
 
+* Machine Learning
+  https://www.geeksforgeeks.org/how-to-approach-a-machine-learning-project-a-step-wise-guidance/
+
+* JSON
+  https://jsonplaceholder.typicode.com/
 * Otros
   https://docs.gitlab.com/ee/ssh/
   https://www.ionos.mx/digitalguide/paginas-web/desarrollo-web/jupyter-notebook/
@@ -52,5 +64,3 @@
   https://physics-complex-systems.fr/wp-content/uploads/2019/03/Notes_chap1-13.pdf
   https://web.eecs.umich.edu/~rajnrao/Acta05rmt.pdf
 
-* JSON
-  https://jsonplaceholder.typicode.com/
