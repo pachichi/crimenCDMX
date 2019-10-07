@@ -6,7 +6,7 @@
 \usepackage{url}
 % \usepackage[backend=bibtex,style=numeric,natbib=true]{biblatex}
 % \bibliography{biblio}
-% \usepackage{mcite}
+\usepackage{mcite}
 
 \title{Revisión bibliográfica sobre modelos matemáticos, crimen, mapas y datos}
 \author{Sergio Sánchez}
@@ -15,22 +15,26 @@
 \begin{document}
 \maketitle
 
+Uno de los problemas que aqueja a nuestra sociedad es la cometición de delitos dentro de ella. Este es un problema cuyos factores que influencian el incremento o decremento son multiples. Lo ideal sería encontrar la causas que origian esos delitos, o por lo menos ser capaces de hacer una predicción. En particular me interesa encontrar alguna respuesta nueva o aplicar algún método existente, desde el enfoque de Sistemas Complejos, al caso particular de la ciudad de méxico, apoyandomé en las bases de datos que ha liberado, a traves de la ADIP, el gobierno de la ciudad sobre carpetas de inverstigación de la fiscalia de la cdmx (antes procuraduría). 
+
+% Quizás desde la modelación de la complejidad no estemos buscando predecir las tendencias criminales o la aparición de hotspot, quizá lo importante es capturar alguna propiedad del sistema que este oculta. 
+% La mayoría de los artículos tratan de predecir el comportamiento criminal. De estos datos podemos saber o por lomenos vislumbrar ¿cuáles son los mecanismos que se deben atacar para ? 
+
+
 \section{Reviews}
 
-Uno de los artículos de revisión sobre modelos matemáticos y crimen es \cite{gordon_random_2010}. D'orsogna et. al.\cite{dorsogna_statistical_2015} hacen una revisión de modelos sobre crimen usando metodos de la física estadística.
+Como punto de partida se puede consultar algunos reviews \mcite{gordon_random_2010,dorsogna_statistical_2015}. En el primero de ellos hacen una revisión de crimen y modelación matemática enfocados principalmente en modelos estadísticos. El propio artículo hace referencia a que la mayoría de los artículos desde 1970 se han basado en modelos lineales donde la tasa de criminalidad depende de una función lineal de variables que lo explican. Menciona dos tipos de modelos, económicos y sociales. D'orsogna et. al.\cite{dorsogna_statistical_2015} hacen un revisión sobre crimen y métodos de la física estadística, algunos de ellos son ecuaciones parciales diferenciales para la formación de patrones, self-exciting point process, teoría de redes, teoría de juegos y ABMs.
+
+% en \cite{gordon_random_2010} hacen una observación sobre los datos obtenidos georeferenciados y que son proporcionados por los reportes de la policia. porque no son datos obtenidos para investigación pueden tener algunas imprecisiones. donde pueden tener errores no sistemáticos.
+
 
 \section{Primarios}
 
-
-
-Sobre crimen en la CDMX esta el trabajo de Carlos Piña\cite{pina-garcia_exploring_2019} que por medio de tuits trata de predecir tendencias del crimen. Analisis de Crimen en el df, libro \cite{mendoza_tamano_2012}; artículos \cite{mata_mobile_2016}, \cite{vilalta_what_2016}, \cite{sanchez_salinas_robo_2016}, \cite{fuentes_flores_distribucion_2017}, \cite{cisneros_geografimiedo_2008}, Ciudad Juarez accidentes de tránsito\cite{hernandez_hernandez_alisis_2012}. Otro trabajo que quizás sea importante\cite{espinal-enriquez_analysis_2015}, arman un red con las correlaciones. \cite{noauthor_delincuencia_nodate}
-\cite{noauthor_crimen_nodate} \cite{noauthor_robo_nodate} \cite{noauthor_homicidios_nodate} \cite{noauthor_visualizar_nodate} \cite{que_nodate} \cite{infodatacivica.org_explorador_nodate} \cite{robo_nodate}
-
-
-un modelo sobre una malla de robo a casas que pueden llevar a un sistema de reacción-difusión \cite{short_statistical_2008}.
+un modelo sobre una malla de robo a casas que pueden llevar a un sistema de reacción-difusión. Detrás de este modelo esta la teoría de los vidrios rotos. \cite{short_statistical_2008}. 
 
 
 Utiliza las series de tiempo de delitos para hacer un análisis fractal, también obtiene el exponente de Hurts\cite{melgarejo_multifractal_2017}.  
+
 
 Otro idea forma en que se puede analizar es de una forma similar al análisis cerebral por medio de EEG (Octavio Lecona, Ruben Fossion). Es decir, de las colonias, cuadrantes de seguridad o delegaciones obtener las series de tiempo para algún tipo de delito, encontrar las correlaciones y formar una red. 
 
@@ -84,6 +88,15 @@ El número de homicidios y la posición espacial así como el desarrollo en el t
 criminal inspector and ordinaru people. transiciones de fase \cite{perc_understanding_2013} 
 
 Modelo económico sobre el crimen montado sobre ecuaicones en diferencias. \cite{freeman_spatial_1996}
+
+\subsection{Crimen CDMX}
+\label{sec:crimen-cdmx}
+
+Sobre crimen en la CDMX esta el trabajo de Carlos Piña\cite{pina-garcia_exploring_2019} que por medio de tuits trata de predecir tendencias del crimen. Analisis de Crimen en el df, libro \cite{mendoza_tamano_2012}; artículos \cite{mata_mobile_2016}, \cite{vilalta_what_2016}, \cite{sanchez_salinas_robo_2016}, \cite{fuentes_flores_distribucion_2017}, \cite{cisneros_geografimiedo_2008}, Ciudad Juarez accidentes de tránsito\cite{hernandez_hernandez_alisis_2012}. Otro trabajo que quizás sea importante\cite{espinal-enriquez_analysis_2015}, arman un red con las correlaciones. A parte de los trabajos desde la parte académica 'pura', recientemente se ha realizado otro tipo de analisis por parte de la sociedad civil, y del mundo de la ciencia de  datos, principalmente usan un enfoque de ciencia de datos,   \cite{noauthor_delincuencia_nodate}
+\cite{noauthor_crimen_nodate} \cite{noauthor_robo_nodate} \cite{noauthor_homicidios_nodate} \cite{noauthor_visualizar_nodate} \cite{que_nodate} \cite{infodatacivica.org_explorador_nodate} \cite{robo_nodate}
+
+
+
 
 \bibliographystyle{unsrt}
 \bibliography{biblio.bib}

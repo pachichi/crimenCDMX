@@ -11,6 +11,7 @@
    https://datatofish.com/load-json-pandas-dataframe/
    https://www.kaggle.com/jboysen/quick-tutorial-flatten-nested-json-in-pandas
    https://datatofish.com/load-json-pandas-dataframe/
+   https://www.makeuseof.com/tag/json-python-parsing-simple-guide/
 
 ** String Format
    https://www.dummies.com/programming/python/how-to-format-strings-in-python/
