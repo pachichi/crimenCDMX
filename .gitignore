@@ -8,5 +8,6 @@
 **/*.blg
 auto/
 data/
+data
 .ipynb_checkpoints/
 docs/revision.pdf
